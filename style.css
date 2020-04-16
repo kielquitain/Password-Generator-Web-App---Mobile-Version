@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Manrope',sans-serif;
+    background: gold;
+    padding: 1rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    font-family: 'Manrope',sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#lower {
+    font-family: 'Manrope',sans-serif;
+}
+#upper {
+    font-family: 'Manrope', sans-serif;
+}
+#special {
+    font-family: 'Manrope', sans-serif; 
+}
+
+#my-form {
+    padding: 2 rem;
+}
+
+
+#passwordBtn {
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: solid rgb(28, 108, 40) 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+#passwordBtn:hover {
+    background: gold;
+}
+.passwordArea {
+    margin: 0;
+    position: absolute; 
+    top: 70%;
+    left: 10%;
+}
+.generatedPass {
+    margin: 0;
+    position: absolute;
+    font-family: 'Manrope',sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}

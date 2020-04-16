@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Password Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+        <header>Password Generator</header>
+            <div class = "container">
+                <form id = "my-form">
+                <label for="lowercaseNums">Number of lowercase characters:&nbsp&nbsp</label>
+                <input type="number" id="lower" name="lowercaseNums" min="1" max="20" size="20"><br><br>
+                <label for="uppercaseNums">Number of uppercase characters:&nbsp</label>
+                <input type="number" id="upper" name="uppercaseNums" min="1" max="20" size="20"><br><br>
+                <label for="specialCharNums">Number of special
+                    characters:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="number" id="special" name="specialCharNums" min="1" max="20" size="20">
+                </form>
+            </div>
+            <div class = "center">
+                <button id="passwordBtn"><b> Create Password </button></b>
+           </div>
+           <div class = "passwordArea">
+            
+           </div>
+        <script src="main.js"></script>
+    </body>
+</html>
