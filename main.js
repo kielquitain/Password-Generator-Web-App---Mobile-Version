@@ -21,7 +21,7 @@ function generatePassword(e) {
         //make an object of lowercase, uppercase, specialChar
         const lowercaseObj = 'abcdefghijklmnopqrstuvwxyz'.split('');
         const uppercaseObj = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-        const specialCharObj = '!@#$%^&*()_+}{":?><~'.split('');
+        const specialCharObj = '!@#$%^&*()_+}{":?><~1234567890'.split('');
         //convert to array
         const lowercase = Object.values(lowercaseObj);
         const uppercase = Object.values(uppercaseObj);
