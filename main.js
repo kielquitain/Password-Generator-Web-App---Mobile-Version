@@ -36,31 +36,26 @@ function generatePassword(e) {
             randomLC = lowercase[Math.floor(Math.random() * lowercase.length)];
             allLowerCase+=randomLC;
         }
-        console.log(allLowerCase.length);
+        console.log('lowercases: ', allLowerCase);
 
         //upercase 
         for (let i = 1; i <= UN; i++) {
             randomLC = uppercase[Math.floor(Math.random() * uppercase.length)];
             allUpperCase+=randomLC;
         }
-        console.log(allUpperCase.length);
+        console.log('uppercases: ',allUpperCase);
 
         //specialChar 
         for (let i = 1; i <= SC; i++) {
             randomLC = specialChar[Math.floor(Math.random() * specialChar.length)];
             allSpecialChar += randomLC;
         }
-        console.log(allSpecialChar.length);
+        console.log('special character: ',allSpecialChar);
 
         temp = allLowerCase + allUpperCase + allSpecialChar;
-        console.log(typeof temp);
-        const temp2 = temp.split('');
-        
-        for (let i = 1; i <= temp2.length; i++) {
-            randomLC = temp2[Math.floor(Math.random() * temp2.length)];
-            generatedPassword += randomLC;
-        }
-        console.log(generatedPassword, generatedPassword.length);
+        generatedPassword = temp.split('').sort(function () {return 0.5 - Math.random()}).join('');
+    
+        console.log('generated password: ', generatedPassword, generatedPassword.length);
 
         passwordArea.classList.add('generatedPass');
         passwordArea.innerHTML =   'Password: '+generatedPassword;
