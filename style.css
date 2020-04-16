@@ -18,11 +18,12 @@ header {
     position: absolute;
     top: 40%;
     left: 15%;
+
 }
 .center {
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -58,7 +59,7 @@ header {
 .passwordArea {
     margin: 0;
     position: absolute; 
-    top: 70%;
+    top: 80%;
     left: 10%;
 }
 .generatedPass {
