@@ -59,7 +59,7 @@ header {
 .passwordArea {
     margin: 0;
     position: absolute; 
-    top: 80%;
+    top: 70%;
     left: 10%;
 }
 .generatedPass {
